@@ -19,7 +19,7 @@ def get_the_news(api_key):
 
 
 def print_results(df):
-    """The function prints the dataframe  """
+    """The function prints the dataframe """
     for i in range(5):
         video=df.iloc[i]
         title=video['Title']
